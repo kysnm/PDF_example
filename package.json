@@ -1,0 +1,15 @@
+{
+  "name": "pdf_example_websocket",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/kysnm/PDF_example",
+  "author": "kysnm <tokyoincidents.g@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.4"
+  },
+  "scripts": {
+    "start": "yarn install --check-files && node index.js"
+  }
+}
